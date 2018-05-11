@@ -40,3 +40,16 @@ Run 3 instances of flights
 
 ```java -jar -Dserver.port=8092 build/lib/*.jar```
 
+
+##Testing
+
+repeatedly send requests
+
+```http://localhost:8080/api/flights/something?origin=hyd&destination=bos```
+
+observe that requests are served in Round Robin fashion.
+
+now make one of the flights microservice down and send requests repeatedly, but still gateway is going to serve the requests, because of retry logic
+
+
+
