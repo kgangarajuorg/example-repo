@@ -53,3 +53,19 @@ now make one of the flights microservice down and send requests repeatedly, but 
 
 
 
+
+#Microservices
+
+- UI info provider
+- Auth
+- Flight list
+- Flight details
+- Checkout
+- Passenger info
+- Profile service
+- Payment Service
+- Booking Service
+- Itinery Service
+- Email Service
+- Policy Service
+- Loyalty service
